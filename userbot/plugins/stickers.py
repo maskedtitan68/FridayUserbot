@@ -58,7 +58,7 @@ async def _(event):
         packname = f"STARKGANGPACK"
         packshortname = "Starkgang"
     else:
-        packname = f"{user.first_name}'s FRIDAY Vol.{pack}"
+        packname = f"{user.first_name}'s Kang Pack Vol.{pack}"
         packshortname = f"FRIDAY_{userid}_Pack"
     await event.edit("`Is It Legal ? Oh Yes it is !! \nLook That Way ! Let me Kang This ¯\_(ツ)_/¯`")
 
@@ -73,7 +73,7 @@ async def _(event):
             packname = f"StarkGang Ka Pack"
             packshortname = "StarkGangisgreat"
         else:
-            packname = f"{user.first_name}'s FRIDAY Animated Vol.{pack}"
+            packname = f"{user.first_name}'s Animated Vol.{pack}"
             packshortname = f"FRIDAY_{userid}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
@@ -84,7 +84,7 @@ async def _(event):
             sticker.seek(0)
             uploaded_sticker = await borg.upload_file(sticker, file_name=file_ext_ns_ion)
 
-    await event.edit("Processing this sticker. Please Wait!")
+    await event.edit("Kanger doing his job...")
 
     async with borg.conversation("@Stickers") as bot_conv:
         now = datetime.datetime.now()
@@ -134,10 +134,10 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{user.first_name}'s FRIDAY Vol.{pack}"
+                    packname = f"{user.first_name}'s Kang Pack Vol.{pack}"
                     packshortname = f"Vol_{pack}_with_{user.first_name}"
                     #if userid == 948408212:
-                       # packname = f"{user.first_name}'s FRIDAY Vol.{pack}"
+                       # packname = f"{user.first_name}'s Kang Pack Vol.{pack}"
                        # packshortname = "Vol._{pack}_FRIDAY_ke_locker_me"
                    # else:
                        # packname = f"Vol._{pack}_FRIDAY{userid}"
