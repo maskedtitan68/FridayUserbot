@@ -8,7 +8,7 @@ from userbot.utils import admin_cmd
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-FRIDAY_IS_ALIVE = ("**✨F.R.I.D.A.Y✨** IS AT YOUR SERVICE❗\n\n"
+FRIDAY_IS_ALIVE = ("This is MΛƧKΣDƬITΛN's **✨F.R.I.D.A.Y✨**\n\n"
                    "**💻Currently Status💻** : `No Issue Found`\n\n"
                    "**🌐Current Branch🌐** : `master`\n\n"
                    "**🐍Python Version🐍** : `3.8`\n\n"
@@ -17,10 +17,8 @@ FRIDAY_IS_ALIVE = ("**✨F.R.I.D.A.Y✨** IS AT YOUR SERVICE❗\n\n"
                    f"**❤️My Boss❤️** : {DEFAULTUSER} \n\n"
                    "**❗Updates❗** : `Found`\n\n"
                    "**🔥Heroku Database🔥** : `No Known Error Found`\n\n"
-                   "**📙License📙** : [MIT Licence](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n\n"
-                   " ©️Copyright©️ : By [StarkGang@Github](GitHub.com/StarkGang)\n\n"
-                   " [⚡Deploy Friday Userbot⚡](https://telegra.ph/FRIDAY-06-15)") 
-
+                   "**📙Repo📙** : [Here](https://github.com/maskedtitan68/FridayUserbot)\n\n"
+                
 
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
